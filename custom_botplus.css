@@ -52,3 +52,21 @@
     #product .product__des, #product .product__detail {
         color: #222;
     }
+#product .product__cart{
+        font-size: 1rem;
+        border: 1px solid;
+        background-color: var(--primary);
+        border-color: var(--primary);
+        display: inline-block;
+        color: #fff !important;
+        padding: 0.2rem 0.7rem;
+    }
+    #product .product__cart i{
+        margin-right: 1rem;
+    }
+    .money--discount span{
+        color: #1c1c1c !important;
+    }
+    .product__price span, .w-100 strong {
+        font-size: 1rem !important;
+    }
