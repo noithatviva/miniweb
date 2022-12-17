@@ -11,7 +11,6 @@
     }
     #product .product__detail table, th, tr, td p strong
     {
-        font-size: .8rem;
         font-weight: normal;
     }
     .cat .cat_title,.page-brand .navbar-brand,.navbar-light .navbar-brand
@@ -49,9 +48,12 @@
     #page-products .product__desc{
         display:none;
     }
-    #product .product__des, #product .product__detail {
+    #product .product__des, #product .product__detail, #product .product__detail h2, #product .product__detail h1 {
         color: #222;
-    }
+    letter-spacing: 0;
+    line-height: 1.4rem;
+    margin-bottom: 10px;
+}
         #product .product__cart{
         font-size: 1rem;
         border: 1px solid;
